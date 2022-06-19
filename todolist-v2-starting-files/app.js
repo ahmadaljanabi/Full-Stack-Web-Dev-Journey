@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 // Connect to mongoose and define the Database name you want to create
-mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://ahmadaljanabi:Aa8527664@cluster0.udtog.mongodb.net/todolistDB", {useNewUrlParser: true});
 
 // Create a schema sctructure for the data you will create later
 const itemsSchema = {
