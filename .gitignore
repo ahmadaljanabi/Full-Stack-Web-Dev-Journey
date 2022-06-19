@@ -1,0 +1,7 @@
+/node_modules
+npm-debug.log
+.DS_Store
+Simon+Game+Challenge+Starting+Files.zip
+_MACOSX
+.vscode
+/*.env
